@@ -1,0 +1,526 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "shared",
+      "printedName": "shared",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "iOSApp",
+      "printedName": "iOSApp",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WindowGroup",
+              "printedName": "SwiftUI.WindowGroup<TodoAppLite.ContentView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ContentView",
+                  "printedName": "TodoAppLite.ContentView",
+                  "usr": "s:11TodoAppLite11ContentViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI11WindowGroupV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11TodoAppLite6iOSAppV4bodyQrvp",
+          "mangledName": "$s11TodoAppLite6iOSAppV4bodyQrvp",
+          "moduleName": "TodoAppLite",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<TodoAppLite.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "TodoAppLite.ContentView",
+                      "usr": "s:11TodoAppLite11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11TodoAppLite6iOSAppV4bodyQrvg",
+              "mangledName": "$s11TodoAppLite6iOSAppV4bodyQrvg",
+              "moduleName": "TodoAppLite",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "$main",
+          "printedName": "$main()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11TodoAppLite6iOSAppV5$mainyyFZ",
+          "mangledName": "$s11TodoAppLite6iOSAppV5$mainyyFZ",
+          "moduleName": "TodoAppLite",
+          "static": true,
+          "implicit": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "iOSApp",
+              "printedName": "TodoAppLite.iOSApp",
+              "usr": "s:11TodoAppLite6iOSAppV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11TodoAppLite6iOSAppVACycfc",
+          "mangledName": "$s11TodoAppLite6iOSAppVACycfc",
+          "moduleName": "TodoAppLite",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11TodoAppLite6iOSAppV",
+      "mangledName": "$s11TodoAppLite6iOSAppV",
+      "moduleName": "TodoAppLite",
+      "declAttributes": [
+        "MainType"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "App",
+          "printedName": "App",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WindowGroup",
+                  "printedName": "SwiftUI.WindowGroup<TodoAppLite.ContentView>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ContentView",
+                      "printedName": "TodoAppLite.ContentView",
+                      "usr": "s:11TodoAppLite11ContentViewV"
+                    }
+                  ],
+                  "usr": "s:7SwiftUI11WindowGroupV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI3AppP",
+          "mangledName": "$s7SwiftUI3AppP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftUI",
+      "printedName": "SwiftUI",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "Import",
+      "name": "shared",
+      "printedName": "shared",
+      "declKind": "Import",
+      "moduleName": "TodoAppLite"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ComposeView",
+      "printedName": "ComposeView",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "makeUIViewController",
+          "printedName": "makeUIViewController(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewControllerRepresentableContext",
+              "printedName": "SwiftUI.UIViewControllerRepresentableContext<TodoAppLite.ComposeView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ComposeView",
+                  "printedName": "TodoAppLite.ComposeView",
+                  "usr": "s:11TodoAppLite11ComposeViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11TodoAppLite11ComposeViewV20makeUIViewController7contextSo0gH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+          "mangledName": "$s11TodoAppLite11ComposeViewV20makeUIViewController7contextSo0gH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+          "moduleName": "TodoAppLite",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "updateUIViewController",
+          "printedName": "updateUIViewController(_:context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewControllerRepresentableContext",
+              "printedName": "SwiftUI.UIViewControllerRepresentableContext<TodoAppLite.ComposeView>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ComposeView",
+                  "printedName": "TodoAppLite.ComposeView",
+                  "usr": "s:11TodoAppLite11ComposeViewV"
+                }
+              ],
+              "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:11TodoAppLite11ComposeViewV22updateUIViewController_7contextySo0gH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+          "mangledName": "$s11TodoAppLite11ComposeViewV22updateUIViewController_7contextySo0gH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+          "moduleName": "TodoAppLite",
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ComposeView",
+              "printedName": "TodoAppLite.ComposeView",
+              "usr": "s:11TodoAppLite11ComposeViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11TodoAppLite11ComposeViewVACycfc",
+          "mangledName": "$s11TodoAppLite11ComposeViewVACycfc",
+          "moduleName": "TodoAppLite",
+          "implicit": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11TodoAppLite11ComposeViewV",
+      "mangledName": "$s11TodoAppLite11ComposeViewV",
+      "moduleName": "TodoAppLite",
+      "declAttributes": [
+        "Custom"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Never",
+                  "printedName": "Swift.Never",
+                  "usr": "s:s5NeverO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "UIViewControllerRepresentable",
+          "printedName": "UIViewControllerRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UIViewControllerType",
+              "printedName": "UIViewControllerType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIViewController",
+                  "printedName": "UIKit.UIViewController",
+                  "usr": "c:objc(cs)UIViewController"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Coordinator",
+              "printedName": "Coordinator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+          "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ContentView",
+      "printedName": "ContentView",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "body",
+          "printedName": "body",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "OpaqueTypeArchetype",
+              "printedName": "some SwiftUI.View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "View",
+                  "printedName": "SwiftUI.View",
+                  "usr": "s:7SwiftUI4ViewP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11TodoAppLite11ContentViewV4bodyQrvp",
+          "mangledName": "$s11TodoAppLite11ContentViewV4bodyQrvp",
+          "moduleName": "TodoAppLite",
+          "declAttributes": [
+            "Custom"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11TodoAppLite11ContentViewV4bodyQrvg",
+              "mangledName": "$s11TodoAppLite11ContentViewV4bodyQrvg",
+              "moduleName": "TodoAppLite",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ContentView",
+              "printedName": "TodoAppLite.ContentView",
+              "usr": "s:11TodoAppLite11ContentViewV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11TodoAppLite11ContentViewVACycfc",
+          "mangledName": "$s11TodoAppLite11ContentViewVACycfc",
+          "moduleName": "TodoAppLite",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11TodoAppLite11ContentViewV",
+      "mangledName": "$s11TodoAppLite11ContentViewV",
+      "moduleName": "TodoAppLite",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "View",
+          "printedName": "View",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Body",
+              "printedName": "Body",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OpaqueTypeArchetype",
+                  "printedName": "some SwiftUI.View",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "View",
+                      "printedName": "SwiftUI.View",
+                      "usr": "s:7SwiftUI4ViewP"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "usr": "s:7SwiftUI4ViewP",
+          "mangledName": "$s7SwiftUI4ViewP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

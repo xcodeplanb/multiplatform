@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "d0561f6d5defd870b44ab8120707f93c2c2108251540a9d1cc8f21a4aa2eda47"
+build_start_time: [1689320431, 664108037]
+build_end_time: [1689320439, 849647045]
+inputs:
+  "/Users/podbbang/AndroidStudioProjects/compose-multiplatform/examples/todoapp-lite/iosApp/iosApp/ContentView.swift": [1689319244, 152548313]
+  "/Users/podbbang/AndroidStudioProjects/compose-multiplatform/examples/todoapp-lite/iosApp/iosApp/iOSApp.swift": [1689319244, 152988672]
